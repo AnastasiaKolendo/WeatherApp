@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+    display:flex;
+  }
+
+  
+#mapContainer,svg { 
+    width: 600px;
+    height: 600px;
+}
+
+#app{
+    display: inline-block;
+    margin: 10px;
+}
+
+button{
+  border: 1px solid rgb(167, 122, 122);
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  background: rgb(187, 147, 147);
+  font-size: large;
+  border-radius: 10px;
+}
